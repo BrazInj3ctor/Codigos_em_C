@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float R,A,P;
+    
+    scanf("%f", &R);
+    
+    if(R<=0){
+        printf("Impossivel");
+    }
+    else{
+        A=3.14*R*R;
+        P=2*3.14*R;
+        printf("Área = %g \nPerimetro = %g", A, P);
+    }
+
+    exit (0);
+}
