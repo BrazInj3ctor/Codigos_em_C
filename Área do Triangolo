@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    float A,B,Divisao,Area;
+    
+    scanf("%F %F", &A, &B);
+    
+    if(A<=0){
+        printf("Impossivel");
+    }
+    else{
+        if(B<=0){
+            printf("Impossivel");
+        }
+        else{
+            Area=(A*B)/2;
+            printf("%F", Area);
+        }
+    }
+
+    return 0;
+}
